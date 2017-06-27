@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Performance Task</title>
+    <title>birthstone</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -40,12 +40,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message" >
-                        <h1>Web Application Performance Task</h1>
-											<h2>Your Task:</h2>
-											<h3>
-												Create a web application that can take in a user's birth month and output the name of their birthstone
-											</h3> 
-                      
+                        <h1>Find Your Birthstone</h1>
+											
                         <hr class="intro-divider">
                         
                     </div>
@@ -69,7 +65,13 @@
 								
 							</div>
                 <div class="col-lg-5 col-sm-6 form">
-                    CODE YOUR FORM HERE!
+                   <form method="POST" action="/birthstone_match">
+                       <h3>What is your birth month?</h3>
+                       <input type="text" name="user_birthmonth">
+                       <input type="submit">
+                   </form>
+                   <form method="POST" action="/birthstone_picture">
+                   </form>
                 </div>
             </div>
 
